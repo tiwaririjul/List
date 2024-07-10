@@ -1,0 +1,41 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 500px;
+  box-shadow: 1px 2px 3px #363131;
+}
+
+.items {
+  font-size: 25px;
+}
+
+.form {
+  box-shadow: 1px 2px 3px #363131;
+  min-height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item-form label {
+  font-size: 20px;
+}
